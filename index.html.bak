@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
     <head>
-        <title>Parallax Slider with jQuery</title>
+        <title>珍藏版照片</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta name="description" content="Parallax Slider with jQuery" />
         <meta name="keywords" content="parallax, jquery, slider, slideshow, rotation, perspective"/>
@@ -20,15 +20,10 @@
     </head>
     <body>
 		<div class="wrapper">
-			<h1>Parallax Slider </h1>
+			<h1>照片墙 </h1>
 		</div>
 
 		<div id="pxs_container" class="pxs_container">
-			<div class="pxs_bg">
-				<div class="pxs_bg1"></div>
-				<div class="pxs_bg2"></div>
-				<div class="pxs_bg3"></div>
-			</div>
 			<div class="pxs_loading">Loading images...</div>
 			<div class="pxs_slider_wrapper">
 				<ul class="pxs_slider">
@@ -53,7 +48,6 @@
 				</ul>
 			</div>
 		</div>
-		<div class="footer-banner" style="width:728px; margin:30px auto"></div>
 		<!-- The JavaScript -->
 		<script type="text/javascript" src="http://cdn.staticfile.org/jquery/1.4.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
